@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+    </style>
+
+</head>
+
+<body>
+    <!-- This is wrapper that contain all the section in it -->
+    <div id="wrapper">
+        <!-- Contain all section -->
+
+        <!-- The main Purposeof container used is , we have already given a  1200px size in navbar so we here make a 1200px fixed. Without container can also work.-->
+        <div class="container">
+            <div class="navbar">
+
+                <!-- logo is created here -->
+                <div class="logo-container">
+                    <img src="./userAsset/NavLogo.jpg" class="logo">
+                    <div class="logo-text">ohn Doe</div>
+                </div>
+
+                <!-- items such as skills contact us etc etc here -->
+
+                <div class="nav-items">
+                    <div><a href="#project">Project</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contact">Contact Me</a></div>
+                </div>
+            </div>
+
+            <div class="Hero-section">
+
+                <div class="hero-section-left">
+
+                    <div class="hero-section-heading">Hi ! Suraj Pandey</div>
+                    <div class="hero-section-heading hero-section-subheading">
+                        I am a <span class="role"></span>
+                    </div>
+                    <div class="hero-section-description">I'm a Software developer and here is my portfolio website.
+                        Here you'll learn about my journey as a software developer.
+                    </div>
+
+                    <div class="btn-pink" id="btn">Hire me</div>
+
+                    <div class="faded-text">Its fun to work under your guidance because problems become much easier.
+                        Thank you for your work.</div>
+
+                </div>
+
+
+
+                <div class="hero-section-right">
+                    <!-- Images -->
+                    <div class="absolute icons icons-dots">
+                        <img src="/Images/userAsset/dots.png" alt="">
+                    </div>
+
+                    <div class="absolute icons icons-cube">
+                        <img src="/Images/userAsset/cube.png" alt="">
+                    </div>
+
+                    <div class="absolute icons icons-circle">
+                        <img src="/Images/userAsset/circle.png" alt="">
+                    </div>
+
+                    <div class="absolute icons icons-zigzags">
+                        <img src="/Images/userAsset/zigzags.png" alt="">
+                    </div>
+
+                    <div class="absolute icons-plus">
+                        <img src="/Images/userAsset/plus.png" alt="">
+                    </div>
+
+
+                    <div class="icons-suraj">
+                        <img src="/Images/userAsset/Suraj Pandey.jpg" alt="" height="370" width="345">
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Conatiner me project section ko isliye nhi dala kyuki cotainer ki width 1200px hai only or project section ko 100% width chaiye root ke . thats why we didnt include the project section in container. -->
+        <!-- Project section ki shuruwatt -->
+        <div class="project-section">
+            <h2 class="project-header" id="project">Projects</h2>
+
+            <!-- Saaare Projects ke Cards idhar hi ayenge -->
+            <div class="project-container">
+
+                <div class="project-card" id="project1">
+
+                    <!-- yeh project number hai jo corner me araha tha sabke. -->
+                    <div class="project-number project-number-right">01</div>
+
+                    <!-- isme sab included hai like like hai usme logo waqera etc.etc -->
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="Project-skills" src="/Images/stack/HTML.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/CSS.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/Javascript.svg" alt="">
+                            <img class="Project-skills" src="/Images/stack/Express.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/NextJsCircle.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/Tailwind.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/NodeJs.svg" alt="">
+                            <img class="Project-skills" src="/Images/stack/MongoDB.svg" alt="">
+                            <img class="Project-skills" src="/Images/stack/Redux.svg" alt="">
+                            <img class="Project-skills" src="/Images/stack/Vercel.svg" alt="">
+                        </div>
+
+                        <h2 class="project1-heading">Tint & Orange</h2>
+                        <div class="project1-subheading">It is a car modification company which provide you sheets to
+                            protect your car from scratch</div>
+
+
+                        <!-- Button group  -->
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="" class="Live-Link">
+                                <img src="/Images/stack/Github.svg" alt="">
+                            </a>
+                            <a id="Live-Link">
+                                <img src="/Images/stack/Github.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project2">
+
+                    <!-- yeh project number hai jo corner me araha tha sabke. -->
+                    <div class="project-number project-number-left">02</div>
+
+                    <!-- isme sab included hai like like hai usme logo waqera etc.etc -->
+                    <div class="project-content  project-content-right">
+                        <div class="project-skills-container">
+                            <img class="Project-skills" src="/Images/stack/HTML.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/CSS.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/Javascript.svg" alt="">
+                            <img class="Project-skills" src="/Images/stack/Express.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/NextJsCircle.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/Tailwind.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/NodeJs.svg" alt="">
+                            <img class="Project-skills" src="/Images/stack/Vercel.svg" alt="">
+                        </div>
+
+                        <h2 class="project1-heading">Breaking Copyright</h2>
+                        <p class="project1-subheading">A platform to download copright free youtube music
+                        </p>
+
+
+                        <!-- Button group  -->
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+
+                                <i title="GithubLink" class="fa-brands fa-github icons"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icons"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project3">
+
+                    <!-- yeh project number hai jo corner me araha tha sabke. -->
+                    <div class="project-number  project-number-right">03</div>
+
+                    <!-- isme sab included hai like like hai usme logo waqera etc.etc -->
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="Project-skills" src="/Images/stack/HTML.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/CSS.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/Javascript.svg" alt="">
+                            <img class="Project-skills" src="/Images/stack/NextJsCircle.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/Tailwind.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/Vercel.svg" alt="">
+                        </div>
+
+                        <h2 class="project1-heading">Isha Tattva</h2>
+                        <p class="project1-subheading">A website for interior designer to showcase her works and samples
+                        </p>
+
+
+                        <!-- Button group  -->
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+
+                                <i title="GithubLink" class="fa-brands fa-github icons"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icons"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project4">
+
+                    <!-- yeh project number hai jo corner me araha tha sabke. -->
+                    <div class="project-number project-number-left">04</div>
+
+                    <!-- isme sab included hai like like hai usme logo waqera etc.etc -->
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img class="Project-skills" src="/Images/stack/NextJsCircle.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/Tailwind.png" alt="">
+                            <img class="Project-skills" src="/Images/stack/Vercel.svg" alt="">
+                        </div>
+
+                        <h2 class="project1-heading">Granit</h2>
+                        <p class="project1-subheading">A architectural website to plan your building or home ( Hebrew
+                            Language )
+
+                        </p>
+
+
+                        <!-- Button group  -->
+                        <div class="btn-group">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+
+                                <i title="GithubLink" class="fa-brands fa-github icons"></i>
+                            </a>
+                            <a href="">
+                                <i title="Live Link" class="fa-solid fa-link icons"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container Skills-container" id="skills">
+            <div class="skill-fade-text">Skills</div>
+
+            <div class="skills-container-left">
+                <h2 class="Skills-heading">
+                    <span class="caps">M</span>e and
+                    <br>
+                    MyTechStack
+                </h2>
+
+                <div class="skills-subheading">
+                    <p>
+                        Hi Everyone My name is Suraj Pandey I am Full Stack Web Developer I have been working for last 3
+                        Years and currently I am working with a Budding Startup in USA and a Full time Freelancer.
+                        Currently I am working on NextJs and Making Beautiful UI-UX are my key features.
+                    </p>
+                    <br>
+                    <p>
+                        Hi Everyone My name is Suraj Pandey I am Full Stack Web Developer I have been working for last 3
+                        Years and currently I am working with a Budding Startup in USA and a Full time Freelancer.
+                        Currently I am working on NextJs and Making Beautiful UI-UX are my key features.
+                    </p>
+                    <br>
+
+                    <p>
+                        Hi Everyone My name is Suraj Pandey I am Full Stack Web Developer I have been working for last 3
+                        Years and currently I am working with a Budding Startup in USA and a Full time Freelancer.
+                        Currently I am working on NextJs and Making Beautiful UI-UX are my key features.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="Skills-container-right">
+                <!-- bubble animation code -->
+                <img src="/Images/userAsset/blob vector.png" class="blob-style" alt="">
+
+                <!-- all skills icons -->
+                <img src="/Images/stack/HTML.png" alt="" class="skills-logo">
+                <img src="/Images/stack/CSS.png" alt="" class="skills-logo">
+                <img src="/Images/stack/Javascript.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/React.png" alt="" class="skills-logo">
+                <img src="/Images/stack/NodeJs.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/Next.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/Redux.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/Tailwind.png" alt="" class="skills-logo">
+                <img src="/Images/stack/Bootstrap.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/MaterialUI.svg" alt="" class="skills-logo">
+
+                <img src="/Images/stack/Express.png" alt="" class="skills-logo">
+                <img src="/Images/stack/Git.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/Github.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/Graphql.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/MongoDB.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/Vercel.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/ChartJs.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/Bash.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/Docker.svg" alt="" class="skills-logo">
+                <img src="/Images/stack/K8s.svg" alt="" class="skills-logo">
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="contact-form-container" id="contact">
+
+            <div class="container">
+
+                <h1 class="contact-me">Contact Me</h1>
+                <h3 class="contact-us-subheading">Question,Thoughts Or Just Want To Say Hello ?
+                </h3>
+
+                <!-- form started horaha hai  -->
+
+                <div class="contact-form-container">
+                    <form action="" class="form">
+                        <div class="formfield-container">
+                            <input class="formfield" type="text" name="name" id="" placeholder="Enter Your Name">
+
+                            <input class="formfield" type="email" name="email" id=""
+                                placeholder="Enter Your email Address">
+
+                            <input class="formfield" type="text" name="subject" id="" placeholder="Enter your Subject">
+
+                            <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea"
+                                placeholder="Enter your message"></textarea>
+
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn-pink" id="submit-btn">Send Message
+                                <i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+
+                </div>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-faded-text">Suraj Pandey
+                    </div>
+                    <div class="footer-faded-text-right">Your Hardwork Decide who your are!
+                    </div>
+                    <div class="link-wrapper">
+                        <div>
+                            <a href="#project">Projects</a>
+                        </div>
+
+                        <div>
+                            <a href="#skills">Skills</a>
+                        </div>
+                        <div>
+                            <a href="#contactme">Content Me</a>
+                        </div>
+
+                       <div class="icon-wrapper">
+
+                        <i class="fa-brands fa-linkdin icon"></i>
+                        <i class="fa-brands fa-github icon"></i>
+                        
+                        <i class="fa-brands fa-twitter icon"></i>
+                        <i class="fa-brands fa-github icon"></i>
+                        
+                        <i class="fa-brands fa-twitter icon"></i>
+                        
+
+                       </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Annne wale class me samjhenge isko By Love babbar. -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Full Stack Developer",
+                "Web Developer",
+                "Video Editor",
+                "Backend Developer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+
+    </script>
+</body>
+
+</html>
